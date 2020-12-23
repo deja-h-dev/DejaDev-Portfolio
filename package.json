@@ -1,0 +1,22 @@
+{
+  "name": "dejadev-portfolio",
+  "version": "1.0.0",
+  "description": "my web design and development portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deja-h-dev/DejaDev-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deja-h-dev/DejaDev-Portfolio/issues"
+  },
+  "homepage": "https://github.com/deja-h-dev/DejaDev-Portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
