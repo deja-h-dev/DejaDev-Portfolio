@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Heebo:wght@300&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,4 +6,17 @@
 
 body {
   background: #0a1ee4;
-  color: #fff; }
+  color: #fff;
+  font-family: "Heebo", sans-serif;
+  line-height: 1; }
+
+h1, h2, h3 {
+  font-family: "Fira Code", monospace;
+  font-weight: 400; }
+
+li {
+  list-style-type: none; }
+
+a {
+  color: #fff;
+  text-decoration: none; }

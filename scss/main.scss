@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Heebo:wght@300&display=swap');
+
 @import 'config';
 
 body{
   background: $primary-color;
   color: #fff;
+  font-family: $text;
+  line-height: 1;
+}
+
+h1, h2, h3{
+  font-family: $headers;
+  font-weight: 400;
+}
+li{list-style-type: none;}
+a{
+  color: #fff;
+  text-decoration: none;
 }
