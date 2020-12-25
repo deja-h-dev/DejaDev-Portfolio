@@ -1,3 +1,48 @@
-$color: green;
+@import 'config';
 
-body{background-color: $color;}
+body{
+  background-image: url("/dist/css/imgs/at\ my\ desk.jpg"); 
+  background-color: $primary-dark-color;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $light-color;
+  font-family: $text;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  height: 50%;
+  width: 70%;
+  margin: auto;
+  background: rgba($color: $dark-color, $alpha: .859);
+  border: 1px solid $secondary-color;
+
+  .coming-soon{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2,h3{
+      font-family: $headers;
+      font-weight: 100;
+    }
+    h2{
+      margin-bottom: 2.5rem;
+      font-size: 4rem;
+    }
+    h3{
+      border-top: 2px solid $secondary-color;
+      padding-top: 1rem;
+      width: 30%;
+    }
+  }
+}
