@@ -23,7 +23,6 @@ a {
   text-decoration: none;
   color: #e6e7e8; }
   a:hover {
-    transition: all 1s;
     color: #e4d00a; }
   a.current {
     color: #c4b108; }
@@ -39,14 +38,11 @@ a {
     width: 200px; }
   #homeNav li {
     position: relative; }
-  #homeNav a::before {
-    content: '';
+  #homeNav a::before, #homeNav a.current::before {
     position: absolute;
-    top: -70px;
-    left: 50%;
-    background-color: #e4d00a;
-    height: 50px;
+    content: '';
     width: 2px;
-    transition: all 1s; }
-  #homeNav a:hover {
-    top: -53px; }
+    height: 100px;
+    background-color: #e4d00a;
+    left: 50%;
+    top: -100px; }

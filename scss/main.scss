@@ -11,18 +11,14 @@
 
   li{position: relative;}
   a{
-    &::before{
-      content: '';
+    &::before, &.current::before{
       position: absolute;
-      top: -70px;
-      left: 50%;
-      background-color: $secondary-color;
-      height: 50px;
+      content: '';
       width: 2px;
-      transition: all 1s;
-    }
-    &:hover{
-      top: -53px;
+      height: 100px;
+      background-color: $secondary-color;
+      left: 50%;
+      top: -100px;
     }
   }
 }
