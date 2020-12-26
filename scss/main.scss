@@ -22,3 +22,27 @@
     }
   }
 }
+
+#homeHero{
+  background: url('/dist/imgs/at\ my\ desk.jpg') no-repeat center center/cover;
+  
+  height: calc(100vh - 61.156px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .container{
+    background-color: rgba($dark-color, $alpha: .5);
+    color: $light-color;
+    border-top: 1px solid $primary-color;
+    border-bottom: 1px solid $primary-color;
+  }
+  h2{font-size: 3rem;}
+  h1{font-size: 6rem;}
+  h3{font-size: 2rem;}
+  hr{
+    border-top: 1px solid $secondary-dark-color;
+    border-bottom: 0;
+    width: 100%;
+  }
+}

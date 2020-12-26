@@ -27,6 +27,30 @@ a {
   a.current {
     color: #c4b108; }
 
+span {
+  color: #e4d00a; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.centerText {
+  text-align: center; }
+
 #homeNav {
   display: flex;
   justify-content: space-between;
@@ -46,3 +70,25 @@ a {
     background-color: #e4d00a;
     left: 50%;
     top: -100px; }
+
+#homeHero {
+  background: url("/dist/imgs/at my desk.jpg") no-repeat center center/cover;
+  height: calc(100vh - 61.156px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  #homeHero .container {
+    background-color: rgba(28, 28, 28, 0.5);
+    color: #e6e7e8;
+    border-top: 1px solid #0a1ee4;
+    border-bottom: 1px solid #0a1ee4; }
+  #homeHero h2 {
+    font-size: 3rem; }
+  #homeHero h1 {
+    font-size: 6rem; }
+  #homeHero h3 {
+    font-size: 2rem; }
+  #homeHero hr {
+    border-top: 1px solid #c4b108;
+    border-bottom: 0;
+    width: 100%; }
