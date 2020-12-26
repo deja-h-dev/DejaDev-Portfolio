@@ -1,22 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Heebo:wght@300&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0; }
 
 body {
-  background: #0a1ee4;
-  color: #fff;
+  background-image: url("/dist/css/imgs/at my desk.jpg");
+  background-color: #081bc4;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #e6e7e8;
   font-family: "Heebo", sans-serif;
-  line-height: 1; }
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
-h1, h2, h3 {
-  font-family: "Fira Code", monospace;
-  font-weight: 400; }
-
-li {
-  list-style-type: none; }
-
-a {
-  color: #fff;
-  text-decoration: none; }
+.container {
+  height: 50%;
+  width: 70%;
+  margin: auto;
+  background: rgba(28, 28, 28, 0.859);
+  border: 1px solid #e4d00a; }
+  .container .coming-soon {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .container .coming-soon h2, .container .coming-soon h3 {
+      font-family: "Fira Code", monospace;
+      font-weight: 100; }
+    .container .coming-soon h2 {
+      margin-bottom: 2.5rem;
+      font-size: 4rem; }
+    .container .coming-soon h3 {
+      border-top: 2px solid #e4d00a;
+      padding-top: 1rem;
+      width: 30%; }
