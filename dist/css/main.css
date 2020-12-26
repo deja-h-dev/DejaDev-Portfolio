@@ -2,3 +2,51 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0; }
+
+html {
+  background-color: #e6e7e8; }
+
+body {
+  font-family: "Heebo", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fira Code", monospace; }
+
+nav ul {
+  display: flex; }
+
+nav li {
+  list-style-type: none;
+  margin: 0 1.5rem; }
+
+a {
+  text-decoration: none;
+  color: #e6e7e8; }
+  a:hover {
+    transition: all 1s;
+    color: #e4d00a; }
+  a.current {
+    color: #c4b108; }
+
+#homeNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  border-bottom: 1px solid #e4d00a;
+  background-color: #1c1c1c; }
+  #homeNav img {
+    width: 200px; }
+  #homeNav li {
+    position: relative; }
+  #homeNav a::before {
+    content: '';
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    background-color: #e4d00a;
+    height: 50px;
+    width: 2px;
+    transition: all 1s; }
+  #homeNav a:hover {
+    top: -53px; }

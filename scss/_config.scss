@@ -12,4 +12,27 @@ $text: 'Heebo', sans-serif;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  // border: 1px solid red;
+}
+
+html{background-color: $light-color;}
+body{font-family: $text;}
+h1,h2,h3,h4,h5,h6{font-family: $headers;}
+
+nav ul{
+  display: flex;
+}
+nav li{
+  list-style-type: none;
+  margin: 0 1.5rem;
+}
+a{
+  text-decoration: none;
+  color: $light-color;
+
+  &:hover{
+    transition: all 1s;
+    color: $secondary-color;
+  }
+  &.current{color: $secondary-dark-color;}
 }

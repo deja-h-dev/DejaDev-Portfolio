@@ -1,1 +1,28 @@
 @import 'config';
+
+#homeNav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  border-bottom: 1px solid $secondary-color;
+  background-color: $dark-color;
+  img{width: 200px;}
+
+  li{position: relative;}
+  a{
+    &::before{
+      content: '';
+      position: absolute;
+      top: -70px;
+      left: 50%;
+      background-color: $secondary-color;
+      height: 50px;
+      width: 2px;
+      transition: all 1s;
+    }
+    &:hover{
+      top: -53px;
+    }
+  }
+}
