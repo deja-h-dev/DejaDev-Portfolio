@@ -24,6 +24,7 @@
 }
 
 #homeHero{
+  position: relative;
   background: url('/dist/imgs/at\ my\ desk.jpg') no-repeat center center/cover;
   
   height: calc(100vh - 61.156px);
@@ -45,4 +46,12 @@
     border-bottom: 0;
     width: 100%;
   }
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: $secondary-dark-color;
+  padding: .5rem;
 }
