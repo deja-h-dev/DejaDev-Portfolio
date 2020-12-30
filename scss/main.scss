@@ -4,11 +4,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 4rem;
+  max-height: 4rem;
   padding: .5rem;
   border-bottom: 1px solid $secondary-color;
   background-color: $dark-color;
-  img{width: 200px;}
 
+  .navImgContainer{
+    width: 8rem;
+    img{
+      width: 100%;
+    }
+  }
   li{position: relative;}
   a{
     &::before, &.current::before{
@@ -25,10 +32,11 @@
 
   // nav on inner pages
   #mainNav.inner{
-    height: 4rem;
+    min-height: 4rem;
+    max-height: 4rem;
     padding: .5rem;
     .navImgContainer{
-      width: 5rem;
+      width: 4rem;
       img{
         width: 100%;
       }
@@ -38,9 +46,9 @@
 // index
 #homeHero{
   position: relative;
-  background: url('/dist/imgs/at\ my\ desk.jpg') no-repeat center center/cover;
+  background: $home-bg-img no-repeat center center/cover;
   
-  height: calc(100vh - 61.156px);
+  height: calc(100vh - 64px);
   display: flex;
   flex-direction: column;
   justify-content: center;

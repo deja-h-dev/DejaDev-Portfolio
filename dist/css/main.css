@@ -55,11 +55,15 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-height: 4rem;
+  max-height: 4rem;
   padding: .5rem;
   border-bottom: 1px solid #e4d00a;
   background-color: #1c1c1c; }
-  #mainNav img {
-    width: 200px; }
+  #mainNav .navImgContainer {
+    width: 8rem; }
+    #mainNav .navImgContainer img {
+      width: 100%; }
   #mainNav li {
     position: relative; }
   #mainNav a::before, #mainNav a.current::before {
@@ -72,17 +76,18 @@ span {
     top: -100px; }
 
 #mainNav.inner {
-  height: 4rem;
+  min-height: 4rem;
+  max-height: 4rem;
   padding: .5rem; }
   #mainNav.inner .navImgContainer {
-    width: 5rem; }
+    width: 4rem; }
     #mainNav.inner .navImgContainer img {
       width: 100%; }
 
 #homeHero {
   position: relative;
   background: url("/dist/imgs/at my desk.jpg") no-repeat center center/cover;
-  height: calc(100vh - 61.156px);
+  height: calc(100vh - 64px);
   display: flex;
   flex-direction: column;
   justify-content: center; }
