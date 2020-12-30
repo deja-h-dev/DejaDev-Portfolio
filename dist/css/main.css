@@ -54,6 +54,18 @@ img {
 .centerText {
   text-align: center; }
 
+.flexColCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.flexRowCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
 #mainNav {
   display: flex;
   justify-content: space-between;
@@ -109,6 +121,16 @@ img {
     border-top: 1px solid #c4b108;
     border-bottom: 0;
     width: 100%; }
+
+#about .aboutImgContainer i {
+  color: #081bc4;
+  border-radius: 50%;
+  padding: 1.5rem;
+  margin: 1rem; }
+
+#about .aboutImgContainer img {
+  width: 200px;
+  border-radius: 50%; }
 
 footer {
   position: absolute;

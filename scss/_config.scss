@@ -48,3 +48,16 @@ img{width: 300px;}
 .my-3{margin: 3rem 0;}
 
 .centerText{text-align: center;}
+
+.flexColCenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flexRowCenter{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
