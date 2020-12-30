@@ -9,6 +9,7 @@ $headers: 'Fira Code', monospace;
 $text: 'Heebo', sans-serif;
 
 $home-bg-img: url('/dist/imgs/at\ my\ desk.jpg');
+$about-headshot: url('/dist/imgs/unprofessional\ headshot.jpg');
 
 *{
   box-sizing: border-box;
@@ -21,9 +22,7 @@ html{background-color: $light-color;}
 body{font-family: $text;}
 h1,h2,h3,h4,h5,h6{font-family: $headers;}
 
-nav ul{
-  display: flex;
-}
+nav ul{ display: flex;}
 nav li{
   list-style-type: none;
   margin: 0 1.5rem;
@@ -36,9 +35,9 @@ a{
   &.current{color: $secondary-dark-color;}
 }
 
-span{
-  color: $secondary-color;
-}
+span{color: $secondary-color;}
+
+img{width: 300px;}
 
 .py-1{padding: 1rem 0;}
 .py-2{padding: 2rem 0;}
