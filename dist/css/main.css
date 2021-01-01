@@ -7,10 +7,16 @@ html {
   background-color: #e6e7e8; }
 
 body {
-  font-family: "Heebo", sans-serif; }
+  font-family: "Heebo", sans-serif;
+  color: #1c1c1c; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Fira Code", monospace; }
+
+hr {
+  border-top: 1px solid #c4b108;
+  border-bottom: 0;
+  width: 100%; }
 
 nav ul {
   display: flex; }
@@ -50,6 +56,9 @@ img {
 
 .my-3 {
   margin: 3rem 0; }
+
+.mAuto {
+  margin: auto; }
 
 .centerText {
   text-align: center; }
@@ -117,20 +126,27 @@ img {
     font-size: 6rem; }
   #homeHero h3 {
     font-size: 2rem; }
-  #homeHero hr {
-    border-top: 1px solid #c4b108;
-    border-bottom: 0;
-    width: 100%; }
 
 #about .aboutImgContainer i {
-  color: #081bc4;
-  border-radius: 50%;
-  padding: 1.5rem;
-  margin: 1rem; }
+  font-size: 5vw;
+  margin: 6vw; }
 
 #about .aboutImgContainer img {
-  width: 200px;
+  width: 20vw;
   border-radius: 50%; }
+
+#about #aboutIntro h1 {
+  font-size: 4vw; }
+
+#about #aboutIntro hr {
+  border-color: #081bc4;
+  width: 20vw;
+  margin-bottom: 2rem; }
+
+#about #aboutIntro p {
+  font-size: 1.4vw;
+  width: 50%;
+  margin-bottom: 3rem; }
 
 footer {
   position: absolute;

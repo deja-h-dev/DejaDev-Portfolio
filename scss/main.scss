@@ -60,29 +60,33 @@
   h2{font-size: 3rem;}
   h1{font-size: 6rem;}
   h3{font-size: 2rem;}
-  hr{
-    border-top: 1px solid $secondary-dark-color;
-    border-bottom: 0;
-    width: 100%;
-  }
 }
 
 // about
 #about{
-  // padding: 0 3rem;
-
   .aboutImgContainer{
     i{
-      color: $primary-dark-color;
-      // border: 1px solid $dark-color;
-      border-radius: 50%;
-      padding: 1.5rem;
-      margin: 1rem;
+      font-size: 5vw;
+      margin: 6vw;
     }
     img{
       // border: 1px solid $primary-color;
-      width: 200px;
+      width: 20vw;
       border-radius: 50%;
+    }
+  }
+
+  #aboutIntro{
+    h1{font-size: 4vw;}
+    hr{
+      border-color: $primary-dark-color;
+      width: 20vw;
+      margin-bottom: 2rem;
+    }
+    p{
+      font-size: 1.4vw;
+      width: 50%;
+      margin-bottom: 3rem;
     }
   }
 }

@@ -17,10 +17,18 @@ $about-headshot: url('/dist/imgs/unprofessional\ headshot.jpg');
   margin: 0;
   // border: 1px solid red;
 }
-
 html{background-color: $light-color;}
-body{font-family: $text;}
+body{
+  font-family: $text;
+  color: $dark-color;
+}
+
 h1,h2,h3,h4,h5,h6{font-family: $headers;}
+hr{
+  border-top: 1px solid $secondary-dark-color;
+  border-bottom: 0;
+  width: 100%;
+}
 
 nav ul{ display: flex;}
 nav li{
@@ -46,6 +54,7 @@ img{width: 300px;}
 .my-1{margin: 1rem 0;}
 .my-2{margin: 2rem 0;}
 .my-3{margin: 3rem 0;}
+.mAuto{margin: auto;}
 
 .centerText{text-align: center;}
 
