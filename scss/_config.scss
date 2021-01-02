@@ -10,12 +10,13 @@ $text: 'Heebo', sans-serif;
 
 $home-bg-img: url('/dist/imgs/at\ my\ desk.jpg');
 $about-headshot: url('/dist/imgs/unprofessional\ headshot.jpg');
+$skill-design: url('/dist/imgs/deja\ dev\ index\ wireframe.jpg');
 
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  // border: 1px solid red;
+  border: 1px solid red;
 }
 html{background-color: $light-color;}
 body{

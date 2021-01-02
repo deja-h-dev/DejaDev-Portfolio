@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  border: 1px solid red; }
 
 html {
   background-color: #e6e7e8; }
@@ -165,6 +166,26 @@ img {
   font-size: 1.4vw;
   width: 50%;
   margin-bottom: 3rem; }
+
+#about #aboutSkills {
+  max-width: 90vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 1rem; }
+  #about #aboutSkills .skillsH2 {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    vertical-align: middle; }
+    #about #aboutSkills .skillsH2:first-of-type {
+      background: url("/dist/imgs/deja dev index wireframe.jpg") no-repeat center center/cover; }
+    #about #aboutSkills .skillsH2:nth-of-type(2) {
+      background: url("/dist/imgs/deja dev index wireframe.jpg") no-repeat center center/cover; }
+    #about #aboutSkills .skillsH2:nth-of-type(3) {
+      background: url("/dist/imgs/deja dev index wireframe.jpg") no-repeat center center/cover; }
+    #about #aboutSkills .skillsH2:last-of-type {
+      background: url("/dist/imgs/deja dev index wireframe.jpg") no-repeat center center/cover; }
 
 footer {
   position: absolute;
