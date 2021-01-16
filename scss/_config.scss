@@ -11,6 +11,7 @@ $text: 'Heebo', sans-serif;
 $home-bg-img: url('/dist/imgs/at\ my\ desk.jpg');
 $about-headshot: url('/dist/imgs/unprofessional\ headshot.jpg');
 $skill-design: url('/dist/imgs/deja\ dev\ index\ wireframe.jpg');
+$skill-dev: url('/dist/imgs/deja_dev_site.jpg');
 
 *{
   box-sizing: border-box;
@@ -22,6 +23,7 @@ html{background-color: $light-color;}
 body{
   font-family: $text;
   color: $dark-color;
+  font-size: 1.25rem;
 }
 
 h1,h2,h3,h4,h5,h6{font-family: $headers;}
@@ -44,7 +46,8 @@ a{
   &.current{color: $secondary-dark-color;}
 }
 
-span{color: $secondary-color;}
+.primaryTxt{color: $secondary-color;}
+.boldTxt{font-weight: bold;}
 
 img{width: 300px;}
 
@@ -71,3 +74,4 @@ img{width: 300px;}
   align-items: center;
   justify-content: center;
 }
+.flexFlip{flex-direction: row-reverse;}

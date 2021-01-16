@@ -97,32 +97,22 @@
       width: 20vw;
       margin-bottom: 2rem;
     }
-    p{
+  }
+
+  #aboutBio{
+    .intro{
       font-size: 1.4vw;
       width: 50%;
       margin-bottom: 3rem;
     }
-  }
-
-  #aboutSkills{
-    max-width: 90vw;
-    margin: auto;
-
-    .skillsH2{
-      width: 100%;
-      height: 30vh;
-      text-align: center;
-      vertical-align: middle;
-
-      &:first-of-type{background: $skill-design no-repeat center center/cover;}
-      &:nth-of-type(2){background: $skill-design no-repeat center center/cover;}
-      &:nth-of-type(3){background: $skill-design no-repeat center center/cover;}
-      &:last-of-type{background: $skill-design no-repeat center center/cover;}
+    
+    #aboutSkills{
+      h2{
+        height: 300px;
+        width: 400px;
+        padding-top: 140px;
+      }
     }
-
-    display: grid;
-    grid-template-columns: repeat(2,2fr);
-    grid-gap: 1rem;
   }
 }
 
@@ -132,4 +122,9 @@ footer{
   right: 0;
   color: $secondary-dark-color;
   padding: .5rem;
+}
+#innerFooter{
+  background-color: $dark-color;
+  position: initial;
+  width: 100%;
 }
